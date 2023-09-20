@@ -23,7 +23,7 @@ class BannerCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func configure(){Slb
+    func configure(){
         
         bannerAdView!.load(withZoneID: "2", andWith: self)
         

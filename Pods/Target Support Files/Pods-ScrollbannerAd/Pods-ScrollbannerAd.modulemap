@@ -1,0 +1,6 @@
+module Pods_ScrollbannerAd {
+  umbrella header "Pods-ScrollbannerAd-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1 @@
+../../../HyBid/PubnativeLite/PubnativeLite/Core/VAST/HyBidCloseButton.h

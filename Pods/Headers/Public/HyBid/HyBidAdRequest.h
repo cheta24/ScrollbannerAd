@@ -1,0 +1,1 @@
+../../../HyBid/PubnativeLite/PubnativeLite/Core/Ad Request/Public/HyBidAdRequest.h

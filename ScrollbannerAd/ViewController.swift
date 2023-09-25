@@ -99,8 +99,10 @@ class ViewController: UIViewController, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if(indexPath.row % 18 == 0 && indexPath.row != 0 ){
-            let cell = tableView.dequeueReusableCell(withIdentifier: "BannerCell", for: indexPath) as? BannerCell
-            cell?.configure()
+            /*let cell = tableView.dequeueReusableCell(withIdentifier: "BannerCell", for: indexPath) as? BannerCell
+            cell?.configure()*/
+            let cell = tableView.dequeueReusableCell(withIdentifier: "MaxBannerViewController", for: <#T##IndexPath#>) as? MaxBannerViewController
+            cell?.createBannerAd()
             return cell!
         }
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)

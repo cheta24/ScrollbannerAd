@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C72660C2AC17D6A0098FB1D /* MaxBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C72660B2AC17D6A0098FB1D /* MaxBannerViewController.swift */; };
 		181C7F042AB9C93500C05681 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C7F032AB9C93500C05681 /* AppDelegate.swift */; };
 		181C7F062AB9C93500C05681 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C7F052AB9C93500C05681 /* SceneDelegate.swift */; };
 		181C7F082AB9C93500C05681 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C7F072AB9C93500C05681 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C72660B2AC17D6A0098FB1D /* MaxBannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxBannerViewController.swift; sourceTree = "<group>"; };
 		181C7F002AB9C93500C05681 /* ScrollbannerAd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollbannerAd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181C7F032AB9C93500C05681 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		181C7F052AB9C93500C05681 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				181C7F0E2AB9C93700C05681 /* LaunchScreen.storyboard */,
 				181C7F112AB9C93700C05681 /* Info.plist */,
 				181C7F332AB9CF4100C05681 /* BannerCell.swift */,
+				0C72660B2AC17D6A0098FB1D /* MaxBannerViewController.swift */,
 			);
 			path = ScrollbannerAd;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C72660C2AC17D6A0098FB1D /* MaxBannerViewController.swift in Sources */,
 				181C7F082AB9C93500C05681 /* ViewController.swift in Sources */,
 				181C7F342AB9CF4100C05681 /* BannerCell.swift in Sources */,
 				181C7F042AB9C93500C05681 /* AppDelegate.swift in Sources */,

@@ -97,6 +97,7 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${PODS_ROOT}/AppLovinSDK/applovin-ios-sdk-11.11.3/AppLovinSDKResources.bundle"
   install_resource "${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/close.png"
   install_resource "${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/close@2x.png"
   install_resource "${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/close@3x.png"
@@ -125,12 +126,13 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/sound-on@2x.png"
   install_resource "${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/sound-on@3x.png"
   install_resource "${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/VerveContentInfo.png"
-  install_resource "${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/OMSDK-1.4.3/omsdk.js"
+  install_resource "${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/OMSDK-1.4.8/omsdk.js"
   install_resource "${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Core/MRAID/hybidmraidscaling.js"
   install_resource "${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Core/MRAID/hybidscaling.js"
   install_resource "${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Core/MRAID/navigation_geolocation.js"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${PODS_ROOT}/AppLovinSDK/applovin-ios-sdk-11.11.3/AppLovinSDKResources.bundle"
   install_resource "${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/close.png"
   install_resource "${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/close@2x.png"
   install_resource "${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/close@3x.png"
@@ -159,7 +161,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/sound-on@2x.png"
   install_resource "${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/sound-on@3x.png"
   install_resource "${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/VerveContentInfo.png"
-  install_resource "${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/OMSDK-1.4.3/omsdk.js"
+  install_resource "${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/OMSDK-1.4.8/omsdk.js"
   install_resource "${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Core/MRAID/hybidmraidscaling.js"
   install_resource "${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Core/MRAID/hybidscaling.js"
   install_resource "${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Core/MRAID/navigation_geolocation.js"

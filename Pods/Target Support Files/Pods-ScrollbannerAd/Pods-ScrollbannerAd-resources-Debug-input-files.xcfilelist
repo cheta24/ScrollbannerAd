@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-ScrollbannerAd/Pods-ScrollbannerAd-resources.sh
+${PODS_ROOT}/AppLovinSDK/applovin-ios-sdk-11.11.3/AppLovinSDKResources.bundle
 ${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/close.png
 ${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/close@2x.png
 ${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/close@3x.png
@@ -27,7 +28,7 @@ ${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/sound-on.png
 ${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/sound-on@2x.png
 ${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/sound-on@3x.png
 ${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/VerveContentInfo.png
-${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/OMSDK-1.4.3/omsdk.js
+${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/OMSDK-1.4.8/omsdk.js
 ${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Core/MRAID/hybidmraidscaling.js
 ${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Core/MRAID/hybidscaling.js
 ${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Core/MRAID/navigation_geolocation.js

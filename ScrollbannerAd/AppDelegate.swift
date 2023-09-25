@@ -7,6 +7,7 @@
 
 import UIKit
 import HyBid
+import AppLovinSDK
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
@@ -16,6 +17,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         HyBid.initWithAppToken(appToken, completion: nil)
         // Override point for customization after application launch.
+        
+        //MAX Init
+        // Please make sure to set the mediation provider value to "max" to ensure proper functionality
+                ALSdk.shared()!.mediationProvider = "max"
+
+                ALSdk.shared()!.userIdentifier = "USER_ID"
+
+        ALSdk.shared()!.initializeSdk { (configuration: ALSdkConfiguration) in
+            // Start loading ads
+        }
+        
         return true
     }
     
